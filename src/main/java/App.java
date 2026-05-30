@@ -14,7 +14,7 @@ public class App {
         System.out.println("Digite o saldo: ex:1000.00 ");
         conta1.setSaldo(sc.nextDouble());
 
-        System.out.println("Olá " + conta1.getNomeDoCliente() + " seu número de conta é: " + conta1.getNumeroDaConta() + " e sua agência é: " + conta1.getAgencia() + " e seu saldo é: R$" + conta1.getSaldo());
+        System.out.println("Olá, " + conta1.getNomeDoCliente() + " seu número de conta é: " + conta1.getNumeroDaConta() + " e sua agência é: " + conta1.getAgencia() + " e seu saldo é: R$" + conta1.getSaldo());
 
     }
 }
